@@ -49,18 +49,22 @@ This project is a web application that allows users to convert amounts from one 
    git clone https://github.com/your-username/CurrencyConverter.git
 
 2. **Import the Project into Your IDE**
+
 Open your IDE
 Import the project as an existing Maven/Gradle project or as a Dynamic Web Project.
 
 3. **Add Your API Key**
+
 Navigate to src/com/currencyconverter/util/CurrencyApi.java.
 Replace "YOUR_API_KEY" with your actual API key.
 private static final String API_KEY = "YOUR_ACTUAL_API_KEY";
 
 4. **Build the Project**
+
 Ensure all dependencies are resolved.
 If using Maven or Gradle, run the build command.
 
 5. **Run the Application**
+
 Deploy the application to your Apache Tomcat server.
 Access the app at http://localhost:8080/CurrencyConverter/WebContent/index.html.
